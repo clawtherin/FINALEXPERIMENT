@@ -1,0 +1,1331 @@
+8.9341 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+80.7679 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0., 0., 0.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001A10D41A9B0>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001A10D21B1D0>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1366,  768]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+80.7838 	EXP 	window1: mouseVisible = True
+80.7839 	EXP 	window1: recordFrameIntervals = False
+80.9439 	EXP 	window1: recordFrameIntervals = True
+81.1285 	EXP 	window1: recordFrameIntervals = False
+81.4164 	EXP 	Created polygon1 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=0.0, fillColor=array([-1., -1., -1.]), fillColorSpace='rgb', fillRGB=array([-1., -1., -1.]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1., -1., -1.]), lineWidth=1, name='polygon1', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([2., 2.]), units='height', vertices=ndarray(...), win=Window(...))
+82.5992 	EXP 	Created welcome = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='welcome', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+82.6017 	EXP 	Created polygon = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=0.0, fillColor=array([-1., -1., -1.]), fillColorSpace='rgb', fillRGB=array([-1., -1., -1.]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1., -1., -1.]), lineWidth=1, name='polygon', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([2., 2.]), units='height', vertices=ndarray(...), win=Window(...))
+82.6166 	EXP 	Created ForenameSup = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='ForenameSup', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+82.6230 	EXP 	Created CueSup1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='CueSup1', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+82.6858 	EXP 	Created BlankSup = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.01, italic=False, languageStyle='LTR', name='BlankSup', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([-1., -1., -1.]), text='.', units='height', win=Window(...), wrapWidth=1)
+82.6899 	EXP 	Created polygon_2 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=0.0, fillColor=array([-1., -1., -1.]), fillColorSpace='rgb', fillRGB=array([-1., -1., -1.]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1., -1., -1.]), lineWidth=1, name='polygon_2', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([2., 2.]), units='height', vertices=ndarray(...), win=Window(...))
+82.7110 	EXP 	Created dis1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='dis1', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([-1., -1., -1.]), text='.', units='height', win=Window(...), wrapWidth=1)
+82.7186 	EXP 	Created polygon_3 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=0.0, fillColor=array([-1., -1., -1.]), fillColorSpace='rgb', fillRGB=array([-1., -1., -1.]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1., -1., -1.]), lineWidth=1, name='polygon_3', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([2., 2.]), units='height', vertices=ndarray(...), win=Window(...))
+82.8727 	EXP 	Created instruction = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='instruction', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+82.8755 	EXP 	Created polygon_4 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=0.0, fillColor=array([-1., -1., -1.]), fillColorSpace='rgb', fillRGB=array([-1., -1., -1.]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1., -1., -1.]), lineWidth=1, name='polygon_4', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([2., 2.]), units='height', vertices=ndarray(...), win=Window(...))
+82.8988 	EXP 	Created suptest = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='suptest', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+82.9015 	EXP 	Created polygon_5 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=0.0, fillColor=array([-1., -1., -1.]), fillColorSpace='rgb', fillRGB=array([-1., -1., -1.]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1., -1., -1.]), lineWidth=1, name='polygon_5', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([2., 2.]), units='height', vertices=ndarray(...), win=Window(...))
+82.9510 	EXP 	Created distractor1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='distractor1', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='What is 0 x 0 = ?', units='height', win=Window(...), wrapWidth=1)
+82.9542 	EXP 	Created polygon_7 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=0.0, fillColor=array([-1., -1., -1.]), fillColorSpace='rgb', fillRGB=array([-1., -1., -1.]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1., -1., -1.]), lineWidth=1, name='polygon_7', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([2., 2.]), units='height', vertices=ndarray(...), win=Window(...))
+82.9902 	EXP 	Created textphase2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='textphase2', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+82.9929 	EXP 	Created polygon_6 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=0.0, fillColor=array([-1., -1., -1.]), fillColorSpace='rgb', fillRGB=array([-1., -1., -1.]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1., -1., -1.]), lineWidth=1, name='polygon_6', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([2., 2.]), units='height', vertices=ndarray(...), win=Window(...))
+83.0079 	EXP 	Created ForenameSub = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='ForenameSub', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+83.0168 	EXP 	Created Mask1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='Mask1', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='###########', units='height', win=Window(...), wrapWidth=1)
+83.0217 	EXP 	Created Cue = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='Cue', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+83.0266 	EXP 	Created Mask2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='Mask2', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='###########', units='height', win=Window(...), wrapWidth=1)
+83.0305 	EXP 	Created blank1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='blank1', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([-1., -1., -1.]), text='.', units='height', win=Window(...), wrapWidth=1)
+83.0338 	EXP 	Created polygon_3 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=0.0, fillColor=array([-1., -1., -1.]), fillColorSpace='rgb', fillRGB=array([-1., -1., -1.]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1., -1., -1.]), lineWidth=1, name='polygon_3', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([2., 2.]), units='height', vertices=ndarray(...), win=Window(...))
+83.0653 	EXP 	Created instruction = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='instruction', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+83.0683 	EXP 	Created polygon_2 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=0.0, fillColor=array([-1., -1., -1.]), fillColorSpace='rgb', fillRGB=array([-1., -1., -1.]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1., -1., -1.]), lineWidth=1, name='polygon_2', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([2., 2.]), units='height', vertices=ndarray(...), win=Window(...))
+83.0841 	EXP 	Created dis1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='dis1', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([-1., -1., -1.]), text='.', units='height', win=Window(...), wrapWidth=1)
+83.0875 	EXP 	Created polygon_8 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=0.0, fillColor=array([-1., -1., -1.]), fillColorSpace='rgb', fillRGB=array([-1., -1., -1.]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1., -1., -1.]), lineWidth=1, name='polygon_8', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([2., 2.]), units='height', vertices=ndarray(...), win=Window(...))
+83.0943 	EXP 	Created SubTest = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='SubTest', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+83.0999 	EXP 	Created polygon_9 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=0.0, fillColor=array([-1., -1., -1.]), fillColorSpace='rgb', fillRGB=array([-1., -1., -1.]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1., -1., -1.]), lineWidth=1, name='polygon_9', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([2., 2.]), units='height', vertices=ndarray(...), win=Window(...))
+83.1658 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+83.3317 	EXP 	polygon1: autoDraw = True
+83.3317 	EXP 	welcome: autoDraw = True
+90.7696 	EXP 	Imported SupraliminalNameCue.xlsx as conditions, 20 conditions, 2 params
+90.8202 	EXP 	Created sequence: random, trialTypes=20, nReps=1, seed=None
+90.8215 	EXP 	New trial (rep=0, index=0): OrderedDict([('NameSup', 'Tobie'), ('CueSup', 'FORGET')])
+90.8833 	EXP 	polygon1: autoDraw = False
+90.8833 	EXP 	welcome: autoDraw = False
+90.8833 	EXP 	ForenameSup: text = 'Tobie'
+90.8833 	EXP 	CueSup1: text = 'FORGET'
+90.8833 	EXP 	polygon: autoDraw = True
+90.8833 	EXP 	ForenameSup: autoDraw = True
+92.1077 	EXP 	CueSup1: autoDraw = True
+92.1296 	EXP 	ForenameSup: autoDraw = False
+93.2811 	EXP 	BlankSup: autoDraw = True
+93.3070 	EXP 	CueSup1: autoDraw = False
+93.5871 	EXP 	New trial (rep=0, index=1): OrderedDict([('NameSup', 'Stacy'), ('CueSup', 'REMEMBER')])
+93.6487 	EXP 	polygon: autoDraw = False
+93.6487 	EXP 	ForenameSup: autoDraw = False
+93.6487 	EXP 	CueSup1: autoDraw = False
+93.6487 	EXP 	BlankSup: autoDraw = False
+93.6487 	EXP 	ForenameSup: text = 'Stacy'
+93.6487 	EXP 	CueSup1: text = 'REMEMBER'
+93.6487 	EXP 	polygon: autoDraw = True
+93.6487 	EXP 	ForenameSup: autoDraw = True
+94.8324 	EXP 	CueSup1: autoDraw = True
+94.8596 	EXP 	ForenameSup: autoDraw = False
+96.0437 	EXP 	CueSup1: autoDraw = False
+96.0437 	EXP 	BlankSup: autoDraw = True
+96.9965 	EXP 	New trial (rep=0, index=2): OrderedDict([('NameSup', 'Kourt'), ('CueSup', 'REMEMBER')])
+97.0168 	EXP 	polygon: autoDraw = False
+97.0168 	EXP 	ForenameSup: autoDraw = False
+97.0168 	EXP 	CueSup1: autoDraw = False
+97.0168 	EXP 	BlankSup: autoDraw = False
+97.0168 	EXP 	ForenameSup: text = 'Kourt'
+97.0168 	EXP 	CueSup1: text = 'REMEMBER'
+97.0168 	EXP 	polygon: autoDraw = True
+97.0168 	EXP 	ForenameSup: autoDraw = True
+98.2209 	EXP 	CueSup1: autoDraw = True
+98.2315 	EXP 	ForenameSup: autoDraw = False
+99.4162 	EXP 	BlankSup: autoDraw = True
+99.4260 	EXP 	CueSup1: autoDraw = False
+100.3842 	EXP 	New trial (rep=0, index=3): OrderedDict([('NameSup', 'Raven'), ('CueSup', 'FORGET')])
+100.4589 	EXP 	polygon: autoDraw = False
+100.4589 	EXP 	ForenameSup: autoDraw = False
+100.4589 	EXP 	CueSup1: autoDraw = False
+100.4589 	EXP 	BlankSup: autoDraw = False
+100.4589 	EXP 	ForenameSup: text = 'Raven'
+100.4589 	EXP 	CueSup1: text = 'FORGET'
+100.4589 	EXP 	polygon: autoDraw = True
+100.4589 	EXP 	ForenameSup: autoDraw = True
+101.6499 	EXP 	CueSup1: autoDraw = True
+101.6779 	EXP 	ForenameSup: autoDraw = False
+102.8643 	EXP 	CueSup1: autoDraw = False
+102.8643 	EXP 	BlankSup: autoDraw = True
+103.7702 	EXP 	New trial (rep=0, index=4): OrderedDict([('NameSup', 'Robin'), ('CueSup', 'FORGET')])
+103.7976 	EXP 	polygon: autoDraw = False
+103.7976 	EXP 	ForenameSup: autoDraw = False
+103.7976 	EXP 	CueSup1: autoDraw = False
+103.7976 	EXP 	BlankSup: autoDraw = False
+103.7976 	EXP 	ForenameSup: text = 'Robin'
+103.7976 	EXP 	CueSup1: text = 'FORGET'
+103.7976 	EXP 	polygon: autoDraw = True
+103.7976 	EXP 	ForenameSup: autoDraw = True
+104.9815 	EXP 	CueSup1: autoDraw = True
+104.9926 	EXP 	ForenameSup: autoDraw = False
+106.1827 	EXP 	BlankSup: autoDraw = True
+106.1915 	EXP 	CueSup1: autoDraw = False
+107.1851 	EXP 	New trial (rep=0, index=5): OrderedDict([('NameSup', 'Shawn'), ('CueSup', 'REMEMBER')])
+107.2159 	EXP 	polygon: autoDraw = False
+107.2159 	EXP 	ForenameSup: autoDraw = False
+107.2159 	EXP 	CueSup1: autoDraw = False
+107.2159 	EXP 	BlankSup: autoDraw = False
+107.2159 	EXP 	ForenameSup: text = 'Shawn'
+107.2159 	EXP 	CueSup1: text = 'REMEMBER'
+107.2159 	EXP 	polygon: autoDraw = True
+107.2159 	EXP 	ForenameSup: autoDraw = True
+108.4094 	EXP 	CueSup1: autoDraw = True
+108.4325 	EXP 	ForenameSup: autoDraw = False
+109.6093 	EXP 	BlankSup: autoDraw = True
+109.6277 	EXP 	CueSup1: autoDraw = False
+110.5809 	EXP 	New trial (rep=0, index=6): OrderedDict([('NameSup', 'Tammy'), ('CueSup', 'FORGET')])
+110.6559 	EXP 	polygon: autoDraw = False
+110.6559 	EXP 	ForenameSup: autoDraw = False
+110.6559 	EXP 	CueSup1: autoDraw = False
+110.6559 	EXP 	BlankSup: autoDraw = False
+110.6559 	EXP 	ForenameSup: text = 'Tammy'
+110.6559 	EXP 	CueSup1: text = 'FORGET'
+110.6559 	EXP 	polygon: autoDraw = True
+110.6559 	EXP 	ForenameSup: autoDraw = True
+111.8438 	EXP 	CueSup1: autoDraw = True
+111.8642 	EXP 	ForenameSup: autoDraw = False
+113.0458 	EXP 	CueSup1: autoDraw = False
+113.0458 	EXP 	BlankSup: autoDraw = True
+113.9872 	EXP 	New trial (rep=0, index=7): OrderedDict([('NameSup', 'Missy'), ('CueSup', 'REMEMBER')])
+114.0456 	EXP 	polygon: autoDraw = False
+114.0456 	EXP 	ForenameSup: autoDraw = False
+114.0456 	EXP 	CueSup1: autoDraw = False
+114.0456 	EXP 	BlankSup: autoDraw = False
+114.0456 	EXP 	ForenameSup: text = 'Missy'
+114.0456 	EXP 	CueSup1: text = 'REMEMBER'
+114.0456 	EXP 	polygon: autoDraw = True
+114.0456 	EXP 	ForenameSup: autoDraw = True
+115.2310 	EXP 	CueSup1: autoDraw = True
+115.2591 	EXP 	ForenameSup: autoDraw = False
+116.4472 	EXP 	CueSup1: autoDraw = False
+116.4472 	EXP 	BlankSup: autoDraw = True
+117.3859 	EXP 	New trial (rep=0, index=8): OrderedDict([('NameSup', 'Marty'), ('CueSup', 'REMEMBER')])
+117.4411 	EXP 	polygon: autoDraw = False
+117.4411 	EXP 	ForenameSup: autoDraw = False
+117.4411 	EXP 	CueSup1: autoDraw = False
+117.4411 	EXP 	BlankSup: autoDraw = False
+117.4411 	EXP 	ForenameSup: text = 'Marty'
+117.4411 	EXP 	CueSup1: text = 'REMEMBER'
+117.4411 	EXP 	polygon: autoDraw = True
+117.4411 	EXP 	ForenameSup: autoDraw = True
+118.6306 	EXP 	CueSup1: autoDraw = True
+118.6408 	EXP 	ForenameSup: autoDraw = False
+119.8261 	EXP 	BlankSup: autoDraw = True
+119.8461 	EXP 	CueSup1: autoDraw = False
+120.7741 	EXP 	New trial (rep=0, index=9): OrderedDict([('NameSup', 'Julio'), ('CueSup', 'FORGET')])
+120.8417 	EXP 	polygon: autoDraw = False
+120.8417 	EXP 	ForenameSup: autoDraw = False
+120.8417 	EXP 	CueSup1: autoDraw = False
+120.8417 	EXP 	BlankSup: autoDraw = False
+120.8417 	EXP 	ForenameSup: text = 'Julio'
+120.8417 	EXP 	CueSup1: text = 'FORGET'
+120.8417 	EXP 	polygon: autoDraw = True
+120.8417 	EXP 	ForenameSup: autoDraw = True
+122.0329 	EXP 	CueSup1: autoDraw = True
+122.0615 	EXP 	ForenameSup: autoDraw = False
+123.2144 	EXP 	BlankSup: autoDraw = True
+123.2431 	EXP 	CueSup1: autoDraw = False
+124.1732 	EXP 	New trial (rep=0, index=10): OrderedDict([('NameSup', 'Walter'), ('CueSup', 'REMEMBER')])
+124.2269 	EXP 	polygon: autoDraw = False
+124.2269 	EXP 	ForenameSup: autoDraw = False
+124.2269 	EXP 	CueSup1: autoDraw = False
+124.2269 	EXP 	BlankSup: autoDraw = False
+124.2269 	EXP 	ForenameSup: text = 'Walter'
+124.2269 	EXP 	CueSup1: text = 'REMEMBER'
+124.2269 	EXP 	polygon: autoDraw = True
+124.2269 	EXP 	ForenameSup: autoDraw = True
+125.4135 	EXP 	CueSup1: autoDraw = True
+125.4422 	EXP 	ForenameSup: autoDraw = False
+126.6255 	EXP 	CueSup1: autoDraw = False
+126.6255 	EXP 	BlankSup: autoDraw = True
+127.5841 	EXP 	New trial (rep=0, index=11): OrderedDict([('NameSup', 'Karla'), ('CueSup', 'FORGET')])
+127.6120 	EXP 	polygon: autoDraw = False
+127.6120 	EXP 	ForenameSup: autoDraw = False
+127.6120 	EXP 	CueSup1: autoDraw = False
+127.6120 	EXP 	BlankSup: autoDraw = False
+127.6120 	EXP 	ForenameSup: text = 'Karla'
+127.6120 	EXP 	CueSup1: text = 'FORGET'
+127.6120 	EXP 	polygon: autoDraw = True
+127.6120 	EXP 	ForenameSup: autoDraw = True
+128.7995 	EXP 	CueSup1: autoDraw = True
+128.8120 	EXP 	ForenameSup: autoDraw = False
+129.9922 	EXP 	BlankSup: autoDraw = True
+130.0112 	EXP 	CueSup1: autoDraw = False
+130.9977 	EXP 	New trial (rep=0, index=12): OrderedDict([('NameSup', 'Wendy'), ('CueSup', 'FORGET')])
+131.0172 	EXP 	polygon: autoDraw = False
+131.0172 	EXP 	ForenameSup: autoDraw = False
+131.0172 	EXP 	CueSup1: autoDraw = False
+131.0172 	EXP 	BlankSup: autoDraw = False
+131.0172 	EXP 	ForenameSup: text = 'Wendy'
+131.0172 	EXP 	CueSup1: text = 'FORGET'
+131.0172 	EXP 	polygon: autoDraw = True
+131.0172 	EXP 	ForenameSup: autoDraw = True
+132.2137 	EXP 	CueSup1: autoDraw = True
+132.2246 	EXP 	ForenameSup: autoDraw = False
+133.4253 	EXP 	CueSup1: autoDraw = False
+133.4253 	EXP 	BlankSup: autoDraw = True
+134.3767 	EXP 	New trial (rep=0, index=13): OrderedDict([('NameSup', 'Pablo'), ('CueSup', 'REMEMBER')])
+134.4057 	EXP 	polygon: autoDraw = False
+134.4057 	EXP 	ForenameSup: autoDraw = False
+134.4057 	EXP 	CueSup1: autoDraw = False
+134.4057 	EXP 	BlankSup: autoDraw = False
+134.4057 	EXP 	ForenameSup: text = 'Pablo'
+134.4057 	EXP 	CueSup1: text = 'REMEMBER'
+134.4057 	EXP 	polygon: autoDraw = True
+134.4057 	EXP 	ForenameSup: autoDraw = True
+135.5782 	EXP 	CueSup1: autoDraw = True
+135.6241 	EXP 	ForenameSup: autoDraw = False
+136.7812 	EXP 	CueSup1: autoDraw = False
+136.7812 	EXP 	BlankSup: autoDraw = True
+137.7835 	EXP 	New trial (rep=0, index=14): OrderedDict([('NameSup', 'North'), ('CueSup', 'FORGET')])
+137.8300 	EXP 	polygon: autoDraw = False
+137.8300 	EXP 	ForenameSup: autoDraw = False
+137.8300 	EXP 	CueSup1: autoDraw = False
+137.8300 	EXP 	BlankSup: autoDraw = False
+137.8300 	EXP 	ForenameSup: text = 'North'
+137.8300 	EXP 	CueSup1: text = 'FORGET'
+137.8300 	EXP 	polygon: autoDraw = True
+137.8300 	EXP 	ForenameSup: autoDraw = True
+139.0143 	EXP 	CueSup1: autoDraw = True
+139.0242 	EXP 	ForenameSup: autoDraw = False
+140.2126 	EXP 	BlankSup: autoDraw = True
+140.2211 	EXP 	CueSup1: autoDraw = False
+141.1773 	EXP 	New trial (rep=0, index=15): OrderedDict([('NameSup', 'Julie'), ('CueSup', 'REMEMBER')])
+141.2024 	EXP 	polygon: autoDraw = False
+141.2024 	EXP 	ForenameSup: autoDraw = False
+141.2024 	EXP 	CueSup1: autoDraw = False
+141.2024 	EXP 	BlankSup: autoDraw = False
+141.2024 	EXP 	ForenameSup: text = 'Julie'
+141.2024 	EXP 	CueSup1: text = 'REMEMBER'
+141.2024 	EXP 	polygon: autoDraw = True
+141.2024 	EXP 	ForenameSup: autoDraw = True
+142.3909 	EXP 	CueSup1: autoDraw = True
+142.4102 	EXP 	ForenameSup: autoDraw = False
+143.5976 	EXP 	CueSup1: autoDraw = False
+143.5976 	EXP 	BlankSup: autoDraw = True
+144.5768 	EXP 	New trial (rep=0, index=16): OrderedDict([('NameSup', 'Venus'), ('CueSup', 'REMEMBER')])
+144.6367 	EXP 	polygon: autoDraw = False
+144.6367 	EXP 	ForenameSup: autoDraw = False
+144.6367 	EXP 	CueSup1: autoDraw = False
+144.6367 	EXP 	BlankSup: autoDraw = False
+144.6367 	EXP 	ForenameSup: text = 'Venus'
+144.6367 	EXP 	CueSup1: text = 'REMEMBER'
+144.6367 	EXP 	polygon: autoDraw = True
+144.6367 	EXP 	ForenameSup: autoDraw = True
+145.8291 	EXP 	CueSup1: autoDraw = True
+145.8384 	EXP 	ForenameSup: autoDraw = False
+147.0228 	EXP 	CueSup1: autoDraw = False
+147.0228 	EXP 	BlankSup: autoDraw = True
+147.9760 	EXP 	New trial (rep=0, index=17): OrderedDict([('NameSup', 'Lucca'), ('CueSup', 'FORGET')])
+148.0168 	EXP 	polygon: autoDraw = False
+148.0168 	EXP 	ForenameSup: autoDraw = False
+148.0168 	EXP 	CueSup1: autoDraw = False
+148.0168 	EXP 	BlankSup: autoDraw = False
+148.0168 	EXP 	ForenameSup: text = 'Lucca'
+148.0168 	EXP 	CueSup1: text = 'FORGET'
+148.0168 	EXP 	polygon: autoDraw = True
+148.0168 	EXP 	ForenameSup: autoDraw = True
+149.2064 	EXP 	CueSup1: autoDraw = True
+149.2262 	EXP 	ForenameSup: autoDraw = False
+150.4139 	EXP 	CueSup1: autoDraw = False
+150.4139 	EXP 	BlankSup: autoDraw = True
+151.3830 	EXP 	New trial (rep=0, index=18): OrderedDict([('NameSup', 'Nicki'), ('CueSup', 'FORGET')])
+151.4531 	EXP 	polygon: autoDraw = False
+151.4531 	EXP 	ForenameSup: autoDraw = False
+151.4531 	EXP 	CueSup1: autoDraw = False
+151.4531 	EXP 	BlankSup: autoDraw = False
+151.4531 	EXP 	ForenameSup: text = 'Nicki'
+151.4531 	EXP 	CueSup1: text = 'FORGET'
+151.4531 	EXP 	polygon: autoDraw = True
+151.4531 	EXP 	ForenameSup: autoDraw = True
+152.6467 	EXP 	CueSup1: autoDraw = True
+152.6739 	EXP 	ForenameSup: autoDraw = False
+153.8466 	EXP 	BlankSup: autoDraw = True
+153.8560 	EXP 	CueSup1: autoDraw = False
+154.7831 	EXP 	New trial (rep=0, index=19): OrderedDict([('NameSup', 'Paris'), ('CueSup', 'REMEMBER')])
+154.8237 	EXP 	polygon: autoDraw = False
+154.8237 	EXP 	ForenameSup: autoDraw = False
+154.8237 	EXP 	CueSup1: autoDraw = False
+154.8237 	EXP 	BlankSup: autoDraw = False
+154.8237 	EXP 	ForenameSup: text = 'Paris'
+154.8237 	EXP 	CueSup1: text = 'REMEMBER'
+154.8237 	EXP 	polygon: autoDraw = True
+154.8237 	EXP 	ForenameSup: autoDraw = True
+156.0155 	EXP 	CueSup1: autoDraw = True
+156.0399 	EXP 	ForenameSup: autoDraw = False
+157.2239 	EXP 	BlankSup: autoDraw = True
+157.2459 	EXP 	CueSup1: autoDraw = False
+158.1961 	EXP 	polygon: autoDraw = False
+158.1961 	EXP 	ForenameSup: autoDraw = False
+158.1961 	EXP 	CueSup1: autoDraw = False
+158.1961 	EXP 	BlankSup: autoDraw = False
+158.1961 	EXP 	polygon_2: autoDraw = True
+158.1961 	EXP 	dis1: autoDraw = True
+160.1962 	EXP 	polygon_2: autoDraw = False
+160.1962 	EXP 	dis1: autoDraw = False
+160.1962 	EXP 	polygon_3: autoDraw = True
+160.1962 	EXP 	instruction: autoDraw = True
+161.6391 	DATA 	Keypress: space
+161.7075 	EXP 	Imported SupraliminalTest.xlsx as conditions, 40 conditions, 2 params
+161.7085 	EXP 	Created sequence: random, trialTypes=40, nReps=1, seed=None
+161.7095 	EXP 	New trial (rep=0, index=0): OrderedDict([('TestSup', 'Kourt'), ('AnswerSup', 'o')])
+161.7289 	EXP 	polygon_3: autoDraw = False
+161.7289 	EXP 	instruction: autoDraw = False
+161.7289 	EXP 	suptest: text = 'Kourt'
+161.7289 	EXP 	polygon_4: autoDraw = True
+161.7289 	EXP 	suptest: autoDraw = True
+163.5030 	EXP 	New trial (rep=0, index=1): OrderedDict([('TestSup', 'Tobie'), ('AnswerSup', 'o')])
+163.5164 	DATA 	Keypress: o
+163.5289 	EXP 	polygon_4: autoDraw = False
+163.5289 	EXP 	suptest: autoDraw = False
+163.5289 	EXP 	suptest: text = 'Tobie'
+163.5289 	EXP 	polygon_4: autoDraw = True
+163.5289 	EXP 	suptest: autoDraw = True
+163.7516 	DATA 	Keypress: n
+163.7646 	EXP 	New trial (rep=0, index=2): OrderedDict([('TestSup', 'Roger'), ('AnswerSup', 'n')])
+163.8016 	EXP 	polygon_4: autoDraw = False
+163.8016 	EXP 	suptest: autoDraw = False
+163.8016 	EXP 	suptest: text = 'Roger'
+163.8016 	EXP 	polygon_4: autoDraw = True
+163.8016 	EXP 	suptest: autoDraw = True
+163.9192 	EXP 	New trial (rep=0, index=3): OrderedDict([('TestSup', 'Pablo'), ('AnswerSup', 'o')])
+163.9436 	DATA 	Keypress: o
+163.9509 	EXP 	polygon_4: autoDraw = False
+163.9509 	EXP 	suptest: autoDraw = False
+163.9509 	EXP 	suptest: text = 'Pablo'
+163.9509 	EXP 	polygon_4: autoDraw = True
+163.9509 	EXP 	suptest: autoDraw = True
+164.0858 	EXP 	New trial (rep=0, index=4): OrderedDict([('TestSup', 'Lucca'), ('AnswerSup', 'o')])
+164.1000 	DATA 	Keypress: n
+164.1060 	EXP 	polygon_4: autoDraw = False
+164.1060 	EXP 	suptest: autoDraw = False
+164.1060 	EXP 	suptest: text = 'Lucca'
+164.1060 	EXP 	polygon_4: autoDraw = True
+164.1060 	EXP 	suptest: autoDraw = True
+164.1996 	EXP 	New trial (rep=0, index=5): OrderedDict([('TestSup', 'Louis'), ('AnswerSup', 'n')])
+164.2592 	DATA 	Keypress: o
+164.2665 	EXP 	polygon_4: autoDraw = False
+164.2665 	EXP 	suptest: autoDraw = False
+164.2665 	EXP 	suptest: text = 'Louis'
+164.2665 	EXP 	polygon_4: autoDraw = True
+164.2665 	EXP 	suptest: autoDraw = True
+164.3172 	EXP 	New trial (rep=0, index=6): OrderedDict([('TestSup', 'Kyler'), ('AnswerSup', 'n')])
+164.3271 	DATA 	Keypress: n
+164.3436 	EXP 	polygon_4: autoDraw = False
+164.3436 	EXP 	suptest: autoDraw = False
+164.3436 	EXP 	suptest: text = 'Kyler'
+164.3436 	EXP 	polygon_4: autoDraw = True
+164.3436 	EXP 	suptest: autoDraw = True
+164.4519 	EXP 	New trial (rep=0, index=7): OrderedDict([('TestSup', 'Nicki'), ('AnswerSup', 'o')])
+164.5011 	DATA 	Keypress: o
+164.5075 	EXP 	polygon_4: autoDraw = False
+164.5075 	EXP 	suptest: autoDraw = False
+164.5075 	EXP 	suptest: text = 'Nicki'
+164.5075 	EXP 	polygon_4: autoDraw = True
+164.5075 	EXP 	suptest: autoDraw = True
+164.5664 	EXP 	New trial (rep=0, index=8): OrderedDict([('TestSup', 'Venus'), ('AnswerSup', 'o')])
+164.5819 	DATA 	Keypress: n
+164.5880 	EXP 	polygon_4: autoDraw = False
+164.5880 	EXP 	suptest: autoDraw = False
+164.5880 	EXP 	suptest: text = 'Venus'
+164.5880 	EXP 	polygon_4: autoDraw = True
+164.5880 	EXP 	suptest: autoDraw = True
+164.6693 	DATA 	Keypress: o
+164.7026 	EXP 	New trial (rep=0, index=9): OrderedDict([('TestSup', 'Wilma'), ('AnswerSup', 'n')])
+164.7290 	EXP 	polygon_4: autoDraw = False
+164.7290 	EXP 	suptest: autoDraw = False
+164.7290 	EXP 	suptest: text = 'Wilma'
+164.7290 	EXP 	polygon_4: autoDraw = True
+164.7290 	EXP 	suptest: autoDraw = True
+164.7861 	EXP 	New trial (rep=0, index=10): OrderedDict([('TestSup', 'Katie'), ('AnswerSup', 'n')])
+164.8024 	DATA 	Keypress: n
+164.8085 	EXP 	polygon_4: autoDraw = False
+164.8085 	EXP 	suptest: autoDraw = False
+164.8085 	EXP 	suptest: text = 'Katie'
+164.8085 	EXP 	polygon_4: autoDraw = True
+164.8085 	EXP 	suptest: autoDraw = True
+164.9180 	EXP 	New trial (rep=0, index=11): OrderedDict([('TestSup', 'North'), ('AnswerSup', 'o')])
+164.9302 	DATA 	Keypress: o
+164.9452 	EXP 	polygon_4: autoDraw = False
+164.9452 	EXP 	suptest: autoDraw = False
+164.9452 	EXP 	suptest: text = 'North'
+164.9452 	EXP 	polygon_4: autoDraw = True
+164.9452 	EXP 	suptest: autoDraw = True
+165.0530 	EXP 	New trial (rep=0, index=12): OrderedDict([('TestSup', 'Paris'), ('AnswerSup', 'n')])
+165.0647 	DATA 	Keypress: n
+165.0800 	EXP 	polygon_4: autoDraw = False
+165.0800 	EXP 	suptest: autoDraw = False
+165.0800 	EXP 	suptest: text = 'Paris'
+165.0800 	EXP 	polygon_4: autoDraw = True
+165.0800 	EXP 	suptest: autoDraw = True
+165.1659 	EXP 	New trial (rep=0, index=13): OrderedDict([('TestSup', 'Julio'), ('AnswerSup', 'o')])
+165.1810 	DATA 	Keypress: o
+165.1872 	EXP 	polygon_4: autoDraw = False
+165.1872 	EXP 	suptest: autoDraw = False
+165.1872 	EXP 	suptest: text = 'Julio'
+165.1872 	EXP 	polygon_4: autoDraw = True
+165.1872 	EXP 	suptest: autoDraw = True
+165.3009 	EXP 	New trial (rep=0, index=14): OrderedDict([('TestSup', 'Reese'), ('AnswerSup', 'n')])
+165.3109 	DATA 	Keypress: n
+165.3288 	EXP 	polygon_4: autoDraw = False
+165.3288 	EXP 	suptest: autoDraw = False
+165.3288 	EXP 	suptest: text = 'Reese'
+165.3288 	EXP 	polygon_4: autoDraw = True
+165.3288 	EXP 	suptest: autoDraw = True
+165.4144 	DATA 	Keypress: o
+165.4328 	EXP 	New trial (rep=0, index=15): OrderedDict([('TestSup', 'Josef'), ('AnswerSup', 'n')])
+165.4731 	EXP 	polygon_4: autoDraw = False
+165.4731 	EXP 	suptest: autoDraw = False
+165.4731 	EXP 	suptest: text = 'Josef'
+165.4731 	EXP 	polygon_4: autoDraw = True
+165.4731 	EXP 	suptest: autoDraw = True
+165.5509 	EXP 	New trial (rep=0, index=16): OrderedDict([('TestSup', 'Julie'), ('AnswerSup', 'o')])
+165.5655 	DATA 	Keypress: n
+165.5773 	EXP 	polygon_4: autoDraw = False
+165.5773 	EXP 	suptest: autoDraw = False
+165.5773 	EXP 	suptest: text = 'Julie'
+165.5773 	EXP 	polygon_4: autoDraw = True
+165.5773 	EXP 	suptest: autoDraw = True
+165.7029 	EXP 	New trial (rep=0, index=17): OrderedDict([('TestSup', 'Moses'), ('AnswerSup', 'n')])
+165.7125 	DATA 	Keypress: o
+165.7270 	EXP 	polygon_4: autoDraw = False
+165.7270 	EXP 	suptest: autoDraw = False
+165.7270 	EXP 	suptest: text = 'Moses'
+165.7270 	EXP 	polygon_4: autoDraw = True
+165.7270 	EXP 	suptest: autoDraw = True
+165.8165 	EXP 	New trial (rep=0, index=18): OrderedDict([('TestSup', 'Robin'), ('AnswerSup', 'o')])
+165.8273 	DATA 	Keypress: n
+165.8335 	EXP 	polygon_4: autoDraw = False
+165.8335 	EXP 	suptest: autoDraw = False
+165.8335 	EXP 	suptest: text = 'Robin'
+165.8335 	EXP 	polygon_4: autoDraw = True
+165.8335 	EXP 	suptest: autoDraw = True
+165.9128 	EXP 	New trial (rep=0, index=19): OrderedDict([('TestSup', 'Myles'), ('AnswerSup', 'n')])
+165.9474 	DATA 	Keypress: o
+165.9533 	EXP 	polygon_4: autoDraw = False
+165.9533 	EXP 	suptest: autoDraw = False
+165.9533 	EXP 	suptest: text = 'Myles'
+165.9533 	EXP 	polygon_4: autoDraw = True
+165.9533 	EXP 	suptest: autoDraw = True
+166.0470 	EXP 	New trial (rep=0, index=20): OrderedDict([('TestSup', 'Norah'), ('AnswerSup', 'n')])
+166.0584 	DATA 	Keypress: n
+166.0645 	EXP 	polygon_4: autoDraw = False
+166.0645 	EXP 	suptest: autoDraw = False
+166.0645 	EXP 	suptest: text = 'Norah'
+166.0645 	EXP 	polygon_4: autoDraw = True
+166.0645 	EXP 	suptest: autoDraw = True
+166.1814 	EXP 	New trial (rep=0, index=21): OrderedDict([('TestSup', 'Missy'), ('AnswerSup', 'o')])
+166.1931 	DATA 	Keypress: o
+166.1994 	EXP 	polygon_4: autoDraw = False
+166.1994 	EXP 	suptest: autoDraw = False
+166.1994 	EXP 	suptest: text = 'Missy'
+166.1994 	EXP 	polygon_4: autoDraw = True
+166.1994 	EXP 	suptest: autoDraw = True
+166.3192 	EXP 	New trial (rep=0, index=22): OrderedDict([('TestSup', 'Simon'), ('AnswerSup', 'n')])
+166.3311 	DATA 	Keypress: n
+166.3452 	EXP 	polygon_4: autoDraw = False
+166.3452 	EXP 	suptest: autoDraw = False
+166.3452 	EXP 	suptest: text = 'Simon'
+166.3452 	EXP 	polygon_4: autoDraw = True
+166.3452 	EXP 	suptest: autoDraw = True
+166.4155 	EXP 	New trial (rep=0, index=23): OrderedDict([('TestSup', 'Shawn'), ('AnswerSup', 'o')])
+166.4315 	DATA 	Keypress: o
+166.4382 	EXP 	polygon_4: autoDraw = False
+166.4382 	EXP 	suptest: autoDraw = False
+166.4382 	EXP 	suptest: text = 'Shawn'
+166.4382 	EXP 	polygon_4: autoDraw = True
+166.4382 	EXP 	suptest: autoDraw = True
+166.5665 	EXP 	New trial (rep=0, index=24): OrderedDict([('TestSup', 'Tammy'), ('AnswerSup', 'o')])
+166.5800 	DATA 	Keypress: n
+166.5861 	EXP 	polygon_4: autoDraw = False
+166.5861 	EXP 	suptest: autoDraw = False
+166.5861 	EXP 	suptest: text = 'Tammy'
+166.5861 	EXP 	polygon_4: autoDraw = True
+166.5861 	EXP 	suptest: autoDraw = True
+166.6861 	EXP 	New trial (rep=0, index=25): OrderedDict([('TestSup', 'Molly'), ('AnswerSup', 'n')])
+166.6970 	DATA 	Keypress: o
+166.7102 	EXP 	polygon_4: autoDraw = False
+166.7102 	EXP 	suptest: autoDraw = False
+166.7102 	EXP 	suptest: text = 'Molly'
+166.7102 	EXP 	polygon_4: autoDraw = True
+166.7102 	EXP 	suptest: autoDraw = True
+166.8211 	EXP 	New trial (rep=0, index=26): OrderedDict([('TestSup', 'Marty'), ('AnswerSup', 'o')])
+166.8486 	DATA 	Keypress: n
+166.8575 	EXP 	polygon_4: autoDraw = False
+166.8575 	EXP 	suptest: autoDraw = False
+166.8575 	EXP 	suptest: text = 'Marty'
+166.8575 	EXP 	polygon_4: autoDraw = True
+166.8575 	EXP 	suptest: autoDraw = True
+166.9380 	EXP 	New trial (rep=0, index=27): OrderedDict([('TestSup', 'Karla'), ('AnswerSup', 'o')])
+166.9508 	DATA 	Keypress: o
+166.9609 	EXP 	polygon_4: autoDraw = False
+166.9609 	EXP 	suptest: autoDraw = False
+166.9609 	EXP 	suptest: text = 'Karla'
+166.9609 	EXP 	polygon_4: autoDraw = True
+166.9609 	EXP 	suptest: autoDraw = True
+167.0513 	EXP 	New trial (rep=0, index=28): OrderedDict([('TestSup', 'Jirah'), ('AnswerSup', 'n')])
+167.0916 	DATA 	Keypress: n
+167.0979 	EXP 	polygon_4: autoDraw = False
+167.0979 	EXP 	suptest: autoDraw = False
+167.0979 	EXP 	suptest: text = 'Jirah'
+167.0979 	EXP 	polygon_4: autoDraw = True
+167.0979 	EXP 	suptest: autoDraw = True
+167.1847 	EXP 	New trial (rep=0, index=29): OrderedDict([('TestSup', 'Stacy'), ('AnswerSup', 'o')])
+167.2015 	DATA 	Keypress: o
+167.2114 	EXP 	polygon_4: autoDraw = False
+167.2114 	EXP 	suptest: autoDraw = False
+167.2114 	EXP 	suptest: text = 'Stacy'
+167.2114 	EXP 	polygon_4: autoDraw = True
+167.2114 	EXP 	suptest: autoDraw = True
+167.3103 	DATA 	Keypress: n
+167.3342 	EXP 	New trial (rep=0, index=30): OrderedDict([('TestSup', 'Peter'), ('AnswerSup', 'n')])
+167.3614 	EXP 	polygon_4: autoDraw = False
+167.3614 	EXP 	suptest: autoDraw = False
+167.3614 	EXP 	suptest: text = 'Peter'
+167.3614 	EXP 	polygon_4: autoDraw = True
+167.3614 	EXP 	suptest: autoDraw = True
+167.4327 	EXP 	New trial (rep=0, index=31): OrderedDict([('TestSup', 'Walter'), ('AnswerSup', 'o')])
+167.4466 	DATA 	Keypress: o
+167.4529 	EXP 	polygon_4: autoDraw = False
+167.4529 	EXP 	suptest: autoDraw = False
+167.4529 	EXP 	suptest: text = 'Walter'
+167.4529 	EXP 	polygon_4: autoDraw = True
+167.4529 	EXP 	suptest: autoDraw = True
+167.5703 	EXP 	New trial (rep=0, index=32): OrderedDict([('TestSup', 'Tyron'), ('AnswerSup', 'n')])
+167.5814 	DATA 	Keypress: n
+167.5953 	EXP 	polygon_4: autoDraw = False
+167.5953 	EXP 	suptest: autoDraw = False
+167.5953 	EXP 	suptest: text = 'Tyron'
+167.5953 	EXP 	polygon_4: autoDraw = True
+167.5953 	EXP 	suptest: autoDraw = True
+167.6841 	EXP 	New trial (rep=0, index=33): OrderedDict([('TestSup', 'Talia'), ('AnswerSup', 'n')])
+167.6942 	DATA 	Keypress: o
+167.7133 	EXP 	polygon_4: autoDraw = False
+167.7133 	EXP 	suptest: autoDraw = False
+167.7133 	EXP 	suptest: text = 'Talia'
+167.7133 	EXP 	polygon_4: autoDraw = True
+167.7133 	EXP 	suptest: autoDraw = True
+167.8484 	EXP 	New trial (rep=0, index=34): OrderedDict([('TestSup', 'Vicky'), ('AnswerSup', 'n')])
+167.8664 	DATA 	Keypress: n
+167.8726 	EXP 	polygon_4: autoDraw = False
+167.8726 	EXP 	suptest: autoDraw = False
+167.8726 	EXP 	suptest: text = 'Vicky'
+167.8726 	EXP 	polygon_4: autoDraw = True
+167.8726 	EXP 	suptest: autoDraw = True
+167.9374 	EXP 	New trial (rep=0, index=35): OrderedDict([('TestSup', 'Raven'), ('AnswerSup', 'o')])
+167.9541 	DATA 	Keypress: o
+167.9604 	EXP 	polygon_4: autoDraw = False
+167.9604 	EXP 	suptest: autoDraw = False
+167.9604 	EXP 	suptest: text = 'Raven'
+167.9604 	EXP 	polygon_4: autoDraw = True
+167.9604 	EXP 	suptest: autoDraw = True
+168.0692 	EXP 	New trial (rep=0, index=36): OrderedDict([('TestSup', 'Sarah'), ('AnswerSup', 'n')])
+168.0826 	DATA 	Keypress: n
+168.0956 	EXP 	polygon_4: autoDraw = False
+168.0956 	EXP 	suptest: autoDraw = False
+168.0956 	EXP 	suptest: text = 'Sarah'
+168.0956 	EXP 	polygon_4: autoDraw = True
+168.0956 	EXP 	suptest: autoDraw = True
+168.2009 	EXP 	New trial (rep=0, index=37): OrderedDict([('TestSup', 'Wendy'), ('AnswerSup', 'o')])
+168.2158 	DATA 	Keypress: o
+168.2297 	EXP 	polygon_4: autoDraw = False
+168.2297 	EXP 	suptest: autoDraw = False
+168.2297 	EXP 	suptest: text = 'Wendy'
+168.2297 	EXP 	polygon_4: autoDraw = True
+168.2297 	EXP 	suptest: autoDraw = True
+168.3355 	EXP 	New trial (rep=0, index=38): OrderedDict([('TestSup', 'Nicko'), ('AnswerSup', 'n')])
+168.3468 	DATA 	Keypress: n
+168.3617 	EXP 	polygon_4: autoDraw = False
+168.3617 	EXP 	suptest: autoDraw = False
+168.3617 	EXP 	suptest: text = 'Nicko'
+168.3617 	EXP 	polygon_4: autoDraw = True
+168.3617 	EXP 	suptest: autoDraw = True
+168.4657 	DATA 	Keypress: o
+168.4861 	EXP 	New trial (rep=0, index=39): OrderedDict([('TestSup', 'Paris'), ('AnswerSup', 'o')])
+168.5118 	EXP 	polygon_4: autoDraw = False
+168.5118 	EXP 	suptest: autoDraw = False
+168.5118 	EXP 	suptest: text = 'Paris'
+168.5118 	EXP 	polygon_4: autoDraw = True
+168.5118 	EXP 	suptest: autoDraw = True
+168.6045 	EXP 	Created sequence: random, trialTypes=1, nReps=5, seed=None
+168.6054 	EXP 	New trial (rep=0, index=0): None
+168.6170 	DATA 	Keypress: n
+168.6294 	EXP 	polygon_4: autoDraw = False
+168.6294 	EXP 	suptest: autoDraw = False
+168.6294 	EXP 	polygon_5: autoDraw = True
+168.6294 	EXP 	distractor1: autoDraw = True
+168.6985 	DATA 	Keypress: o
+168.8488 	DATA 	Keypress: n
+170.1041 	EXP 	New trial (rep=1, index=0): None
+170.1071 	DATA 	Keypress: 0
+170.1240 	EXP 	polygon_5: autoDraw = False
+170.1240 	EXP 	distractor1: autoDraw = False
+170.1240 	EXP 	polygon_5: autoDraw = True
+170.1240 	EXP 	distractor1: autoDraw = True
+171.0329 	DATA 	Keypress: 0
+171.0602 	EXP 	New trial (rep=2, index=0): None
+171.0795 	EXP 	polygon_5: autoDraw = False
+171.0795 	EXP 	distractor1: autoDraw = False
+171.0795 	EXP 	polygon_5: autoDraw = True
+171.0795 	EXP 	distractor1: autoDraw = True
+172.3531 	EXP 	New trial (rep=3, index=0): None
+172.3578 	DATA 	Keypress: 0
+172.3736 	EXP 	polygon_5: autoDraw = False
+172.3736 	EXP 	distractor1: autoDraw = False
+172.3736 	EXP 	polygon_5: autoDraw = True
+172.3736 	EXP 	distractor1: autoDraw = True
+173.3507 	DATA 	Keypress: 0
+173.3691 	EXP 	New trial (rep=4, index=0): None
+173.3810 	EXP 	polygon_5: autoDraw = False
+173.3810 	EXP 	distractor1: autoDraw = False
+173.3810 	EXP 	polygon_5: autoDraw = True
+173.3810 	EXP 	distractor1: autoDraw = True
+173.7987 	DATA 	Keypress: space
+174.6998 	DATA 	Keypress: return
+175.3912 	DATA 	Keypress: 0
+175.3981 	EXP 	polygon_5: autoDraw = False
+175.3981 	EXP 	distractor1: autoDraw = False
+175.3981 	EXP 	polygon_7: autoDraw = True
+175.3981 	EXP 	textphase2: autoDraw = True
+176.6647 	DATA 	Keypress: space
+180.4300 	EXP 	Imported SubliminalNameCue.xlsx as conditions, 20 conditions, 2 params
+180.4309 	EXP 	Created sequence: random, trialTypes=20, nReps=1, seed=None
+180.4314 	EXP 	New trial (rep=0, index=0): OrderedDict([('NameSub', 'Jessa'), ('CueSub', 'REMEMBER')])
+180.4512 	EXP 	polygon_7: autoDraw = False
+180.4512 	EXP 	textphase2: autoDraw = False
+180.4512 	EXP 	ForenameSub: text = 'Jessa'
+180.4512 	EXP 	Cue: text = 'REMEMBER'
+180.4512 	EXP 	polygon_6: autoDraw = True
+180.4512 	EXP 	ForenameSub: autoDraw = True
+181.6267 	EXP 	Mask1: autoDraw = True
+181.6736 	EXP 	ForenameSub: autoDraw = False
+181.7333 	EXP 	Mask1: autoDraw = False
+181.7333 	EXP 	Cue: autoDraw = True
+181.7564 	EXP 	Mask2: autoDraw = True
+181.7762 	EXP 	Cue: autoDraw = False
+181.9727 	EXP 	blank1: autoDraw = True
+182.0110 	EXP 	Mask2: autoDraw = False
+183.6762 	EXP 	blank1: autoDraw = False
+183.6979 	EXP 	New trial (rep=0, index=1): OrderedDict([('NameSub', 'Liana'), ('CueSub', 'REMEMBER')])
+183.7458 	EXP 	polygon_6: autoDraw = False
+183.7458 	EXP 	ForenameSub: autoDraw = False
+183.7458 	EXP 	Mask1: autoDraw = False
+183.7458 	EXP 	Cue: autoDraw = False
+183.7458 	EXP 	Mask2: autoDraw = False
+183.7458 	EXP 	blank1: autoDraw = False
+183.7458 	EXP 	ForenameSub: text = 'Liana'
+183.7458 	EXP 	Cue: text = 'REMEMBER'
+183.7458 	EXP 	polygon_6: autoDraw = True
+183.7458 	EXP 	ForenameSub: autoDraw = True
+184.9459 	EXP 	Mask1: autoDraw = True
+184.9561 	EXP 	ForenameSub: autoDraw = False
+185.0052 	EXP 	Cue: autoDraw = True
+185.0237 	EXP 	Mask1: autoDraw = False
+185.0443 	EXP 	Cue: autoDraw = False
+185.0443 	EXP 	Mask2: autoDraw = True
+185.3061 	EXP 	Mask2: autoDraw = False
+185.3061 	EXP 	blank1: autoDraw = True
+186.9931 	EXP 	New trial (rep=0, index=2): OrderedDict([('NameSub', 'Flynn'), ('CueSub', 'REMEMBER')])
+187.0107 	EXP 	polygon_6: autoDraw = False
+187.0107 	EXP 	ForenameSub: autoDraw = False
+187.0107 	EXP 	Mask1: autoDraw = False
+187.0107 	EXP 	Cue: autoDraw = False
+187.0107 	EXP 	Mask2: autoDraw = False
+187.0107 	EXP 	blank1: autoDraw = False
+187.0107 	EXP 	ForenameSub: text = 'Flynn'
+187.0107 	EXP 	Cue: text = 'REMEMBER'
+187.0107 	EXP 	polygon_6: autoDraw = True
+187.0107 	EXP 	ForenameSub: autoDraw = True
+188.1924 	EXP 	Mask1: autoDraw = True
+188.2263 	EXP 	ForenameSub: autoDraw = False
+188.2715 	EXP 	Mask1: autoDraw = False
+188.2715 	EXP 	Cue: autoDraw = True
+188.3119 	EXP 	Cue: autoDraw = False
+188.3119 	EXP 	Mask2: autoDraw = True
+188.5454 	EXP 	blank1: autoDraw = True
+188.5720 	EXP 	Mask2: autoDraw = False
+190.2620 	EXP 	blank1: autoDraw = False
+190.2915 	EXP 	New trial (rep=0, index=3): OrderedDict([('NameSub', 'Dylan'), ('CueSub', 'FORGET')])
+190.3192 	EXP 	polygon_6: autoDraw = False
+190.3192 	EXP 	ForenameSub: autoDraw = False
+190.3192 	EXP 	Mask1: autoDraw = False
+190.3192 	EXP 	Cue: autoDraw = False
+190.3192 	EXP 	Mask2: autoDraw = False
+190.3192 	EXP 	blank1: autoDraw = False
+190.3192 	EXP 	ForenameSub: text = 'Dylan'
+190.3192 	EXP 	Cue: text = 'FORGET'
+190.3192 	EXP 	polygon_6: autoDraw = True
+190.3192 	EXP 	ForenameSub: autoDraw = True
+191.4951 	EXP 	Mask1: autoDraw = True
+191.5507 	EXP 	ForenameSub: autoDraw = False
+191.5638 	EXP 	Cue: autoDraw = True
+191.5900 	EXP 	Mask1: autoDraw = False
+191.6116 	EXP 	Cue: autoDraw = False
+191.6116 	EXP 	Mask2: autoDraw = True
+191.8552 	EXP 	blank1: autoDraw = True
+191.8733 	EXP 	Mask2: autoDraw = False
+193.5607 	EXP 	blank1: autoDraw = False
+193.5951 	EXP 	New trial (rep=0, index=4): OrderedDict([('NameSub', 'Mabel'), ('CueSub', 'FORGET')])
+193.6158 	EXP 	polygon_6: autoDraw = False
+193.6158 	EXP 	ForenameSub: autoDraw = False
+193.6158 	EXP 	Mask1: autoDraw = False
+193.6158 	EXP 	Cue: autoDraw = False
+193.6158 	EXP 	Mask2: autoDraw = False
+193.6158 	EXP 	blank1: autoDraw = False
+193.6158 	EXP 	ForenameSub: text = 'Mabel'
+193.6158 	EXP 	Cue: text = 'FORGET'
+193.6158 	EXP 	polygon_6: autoDraw = True
+193.6158 	EXP 	ForenameSub: autoDraw = True
+194.8069 	EXP 	Mask1: autoDraw = True
+194.8269 	EXP 	ForenameSub: autoDraw = False
+194.8807 	EXP 	Mask1: autoDraw = False
+194.8807 	EXP 	Cue: autoDraw = True
+194.8952 	EXP 	Mask2: autoDraw = True
+194.9232 	EXP 	Cue: autoDraw = False
+195.1525 	EXP 	Mask2: autoDraw = False
+195.1525 	EXP 	blank1: autoDraw = True
+196.8732 	EXP 	blank1: autoDraw = False
+196.8985 	EXP 	New trial (rep=0, index=5): OrderedDict([('NameSub', 'Floyd'), ('CueSub', 'REMEMBER')])
+196.9563 	EXP 	polygon_6: autoDraw = False
+196.9563 	EXP 	ForenameSub: autoDraw = False
+196.9563 	EXP 	Mask1: autoDraw = False
+196.9563 	EXP 	Cue: autoDraw = False
+196.9563 	EXP 	Mask2: autoDraw = False
+196.9563 	EXP 	blank1: autoDraw = False
+196.9563 	EXP 	ForenameSub: text = 'Floyd'
+196.9563 	EXP 	Cue: text = 'REMEMBER'
+196.9563 	EXP 	polygon_6: autoDraw = True
+196.9563 	EXP 	ForenameSub: autoDraw = True
+198.1558 	EXP 	Mask1: autoDraw = True
+198.1757 	EXP 	ForenameSub: autoDraw = False
+198.2039 	EXP 	Cue: autoDraw = True
+198.2244 	EXP 	Mask1: autoDraw = False
+198.2452 	EXP 	Cue: autoDraw = False
+198.2452 	EXP 	Mask2: autoDraw = True
+198.4892 	EXP 	blank1: autoDraw = True
+198.5102 	EXP 	Mask2: autoDraw = False
+200.1970 	EXP 	New trial (rep=0, index=6): OrderedDict([('NameSub', 'Carey'), ('CueSub', 'FORGET')])
+200.2546 	EXP 	polygon_6: autoDraw = False
+200.2546 	EXP 	ForenameSub: autoDraw = False
+200.2546 	EXP 	Mask1: autoDraw = False
+200.2546 	EXP 	Cue: autoDraw = False
+200.2546 	EXP 	Mask2: autoDraw = False
+200.2546 	EXP 	blank1: autoDraw = False
+200.2546 	EXP 	ForenameSub: text = 'Carey'
+200.2546 	EXP 	Cue: text = 'FORGET'
+200.2546 	EXP 	polygon_6: autoDraw = True
+200.2546 	EXP 	ForenameSub: autoDraw = True
+201.4383 	EXP 	Mask1: autoDraw = True
+201.4577 	EXP 	ForenameSub: autoDraw = False
+201.4904 	EXP 	Cue: autoDraw = True
+201.5109 	EXP 	Mask1: autoDraw = False
+201.5386 	EXP 	Cue: autoDraw = False
+201.5386 	EXP 	Mask2: autoDraw = True
+201.7903 	EXP 	Mask2: autoDraw = False
+201.7903 	EXP 	blank1: autoDraw = True
+203.5050 	EXP 	blank1: autoDraw = False
+203.5071 	EXP 	New trial (rep=0, index=7): OrderedDict([('NameSub', 'Gregg'), ('CueSub', 'FORGET')])
+203.5565 	EXP 	polygon_6: autoDraw = False
+203.5565 	EXP 	ForenameSub: autoDraw = False
+203.5565 	EXP 	Mask1: autoDraw = False
+203.5565 	EXP 	Cue: autoDraw = False
+203.5565 	EXP 	Mask2: autoDraw = False
+203.5565 	EXP 	blank1: autoDraw = False
+203.5565 	EXP 	ForenameSub: text = 'Gregg'
+203.5565 	EXP 	Cue: text = 'FORGET'
+203.5565 	EXP 	polygon_6: autoDraw = True
+203.5565 	EXP 	ForenameSub: autoDraw = True
+204.7441 	EXP 	Mask1: autoDraw = True
+204.7722 	EXP 	ForenameSub: autoDraw = False
+204.8037 	EXP 	Cue: autoDraw = True
+204.8242 	EXP 	Mask1: autoDraw = False
+204.8456 	EXP 	Cue: autoDraw = False
+204.8456 	EXP 	Mask2: autoDraw = True
+205.0936 	EXP 	blank1: autoDraw = True
+205.1031 	EXP 	Mask2: autoDraw = False
+206.7908 	EXP 	New trial (rep=0, index=8): OrderedDict([('NameSub', 'Heath'), ('CueSub', 'REMEMBER')])
+206.8557 	EXP 	polygon_6: autoDraw = False
+206.8557 	EXP 	ForenameSub: autoDraw = False
+206.8557 	EXP 	Mask1: autoDraw = False
+206.8557 	EXP 	Cue: autoDraw = False
+206.8557 	EXP 	Mask2: autoDraw = False
+206.8557 	EXP 	blank1: autoDraw = False
+206.8557 	EXP 	ForenameSub: text = 'Heath'
+206.8557 	EXP 	Cue: text = 'REMEMBER'
+206.8557 	EXP 	polygon_6: autoDraw = True
+206.8557 	EXP 	ForenameSub: autoDraw = True
+208.0253 	EXP 	Mask1: autoDraw = True
+208.0593 	EXP 	ForenameSub: autoDraw = False
+208.0766 	EXP 	Cue: autoDraw = True
+208.0953 	EXP 	Mask1: autoDraw = False
+208.1217 	EXP 	Cue: autoDraw = False
+208.1217 	EXP 	Mask2: autoDraw = True
+208.3709 	EXP 	blank1: autoDraw = True
+208.3903 	EXP 	Mask2: autoDraw = False
+210.0678 	EXP 	blank1: autoDraw = False
+210.0914 	EXP 	New trial (rep=0, index=9): OrderedDict([('NameSub', 'Diana'), ('CueSub', 'FORGET')])
+210.1183 	EXP 	polygon_6: autoDraw = False
+210.1183 	EXP 	ForenameSub: autoDraw = False
+210.1183 	EXP 	Mask1: autoDraw = False
+210.1183 	EXP 	Cue: autoDraw = False
+210.1183 	EXP 	Mask2: autoDraw = False
+210.1183 	EXP 	blank1: autoDraw = False
+210.1183 	EXP 	ForenameSub: text = 'Diana'
+210.1183 	EXP 	Cue: text = 'FORGET'
+210.1183 	EXP 	polygon_6: autoDraw = True
+210.1183 	EXP 	ForenameSub: autoDraw = True
+211.3053 	EXP 	Mask1: autoDraw = True
+211.3273 	EXP 	ForenameSub: autoDraw = False
+211.3706 	EXP 	Cue: autoDraw = True
+211.3895 	EXP 	Mask1: autoDraw = False
+211.4078 	EXP 	Cue: autoDraw = False
+211.4078 	EXP 	Mask2: autoDraw = True
+211.6356 	EXP 	blank1: autoDraw = True
+211.6748 	EXP 	Mask2: autoDraw = False
+213.3355 	EXP 	blank1: autoDraw = False
+213.3917 	EXP 	New trial (rep=0, index=10): OrderedDict([('NameSub', 'Brena'), ('CueSub', 'REMEMBER')])
+213.4227 	EXP 	polygon_6: autoDraw = False
+213.4227 	EXP 	ForenameSub: autoDraw = False
+213.4227 	EXP 	Mask1: autoDraw = False
+213.4227 	EXP 	Cue: autoDraw = False
+213.4227 	EXP 	Mask2: autoDraw = False
+213.4227 	EXP 	blank1: autoDraw = False
+213.4227 	EXP 	ForenameSub: text = 'Brena'
+213.4227 	EXP 	Cue: text = 'REMEMBER'
+213.4227 	EXP 	polygon_6: autoDraw = True
+213.4227 	EXP 	ForenameSub: autoDraw = True
+214.6041 	EXP 	Mask1: autoDraw = True
+214.6358 	EXP 	ForenameSub: autoDraw = False
+214.6771 	EXP 	Mask1: autoDraw = False
+214.6771 	EXP 	Cue: autoDraw = True
+214.7272 	EXP 	Cue: autoDraw = False
+214.7272 	EXP 	Mask2: autoDraw = True
+214.9593 	EXP 	blank1: autoDraw = True
+215.0043 	EXP 	Mask2: autoDraw = False
+216.6508 	EXP 	blank1: autoDraw = False
+216.6913 	EXP 	New trial (rep=0, index=11): OrderedDict([('NameSub', 'Rosey'), ('CueSub', 'FORGET')])
+216.7724 	EXP 	polygon_6: autoDraw = False
+216.7724 	EXP 	ForenameSub: autoDraw = False
+216.7724 	EXP 	Mask1: autoDraw = False
+216.7724 	EXP 	Cue: autoDraw = False
+216.7724 	EXP 	Mask2: autoDraw = False
+216.7724 	EXP 	blank1: autoDraw = False
+216.7724 	EXP 	ForenameSub: text = 'Rosey'
+216.7724 	EXP 	Cue: text = 'FORGET'
+216.7724 	EXP 	polygon_6: autoDraw = True
+216.7724 	EXP 	ForenameSub: autoDraw = True
+217.9041 	EXP 	Mask1: autoDraw = True
+217.9759 	EXP 	ForenameSub: autoDraw = False
+217.9759 	EXP 	Mask1: autoDraw = False
+217.9759 	EXP 	Cue: autoDraw = True
+218.0054 	EXP 	Mask2: autoDraw = True
+218.0258 	EXP 	Cue: autoDraw = False
+218.2351 	EXP 	blank1: autoDraw = True
+218.2775 	EXP 	Mask2: autoDraw = False
+219.9541 	EXP 	blank1: autoDraw = False
+219.9987 	EXP 	New trial (rep=0, index=12): OrderedDict([('NameSub', 'Aaron'), ('CueSub', 'REMEMBER')])
+220.0680 	EXP 	polygon_6: autoDraw = False
+220.0680 	EXP 	ForenameSub: autoDraw = False
+220.0680 	EXP 	Mask1: autoDraw = False
+220.0680 	EXP 	Cue: autoDraw = False
+220.0680 	EXP 	Mask2: autoDraw = False
+220.0680 	EXP 	blank1: autoDraw = False
+220.0680 	EXP 	ForenameSub: text = 'Aaron'
+220.0680 	EXP 	Cue: text = 'REMEMBER'
+220.0680 	EXP 	polygon_6: autoDraw = True
+220.0680 	EXP 	ForenameSub: autoDraw = True
+221.2558 	EXP 	Mask1: autoDraw = True
+221.2780 	EXP 	ForenameSub: autoDraw = False
+221.3451 	EXP 	Cue: autoDraw = True
+221.3608 	EXP 	Mask1: autoDraw = False
+221.3608 	EXP 	Mask2: autoDraw = True
+221.3873 	EXP 	Cue: autoDraw = False
+221.6102 	EXP 	blank1: autoDraw = True
+221.6284 	EXP 	Mask2: autoDraw = False
+223.3170 	EXP 	New trial (rep=0, index=13): OrderedDict([('NameSub', 'Adela'), ('CueSub', 'REMEMBER')])
+223.3451 	EXP 	polygon_6: autoDraw = False
+223.3451 	EXP 	ForenameSub: autoDraw = False
+223.3451 	EXP 	Mask1: autoDraw = False
+223.3451 	EXP 	Cue: autoDraw = False
+223.3451 	EXP 	Mask2: autoDraw = False
+223.3451 	EXP 	blank1: autoDraw = False
+223.3451 	EXP 	ForenameSub: text = 'Adela'
+223.3451 	EXP 	Cue: text = 'REMEMBER'
+223.3451 	EXP 	polygon_6: autoDraw = True
+223.3451 	EXP 	ForenameSub: autoDraw = True
+224.5196 	EXP 	Mask1: autoDraw = True
+224.5650 	EXP 	ForenameSub: autoDraw = False
+224.5760 	EXP 	Cue: autoDraw = True
+224.6032 	EXP 	Mask1: autoDraw = False
+224.6218 	EXP 	Cue: autoDraw = False
+224.6218 	EXP 	Mask2: autoDraw = True
+224.8868 	EXP 	Mask2: autoDraw = False
+224.8868 	EXP 	blank1: autoDraw = True
+226.5859 	EXP 	blank1: autoDraw = False
+226.5889 	EXP 	New trial (rep=0, index=14): OrderedDict([('NameSub', 'James'), ('CueSub', 'FORGET')])
+226.6163 	EXP 	polygon_6: autoDraw = False
+226.6163 	EXP 	ForenameSub: autoDraw = False
+226.6163 	EXP 	Mask1: autoDraw = False
+226.6163 	EXP 	Cue: autoDraw = False
+226.6163 	EXP 	Mask2: autoDraw = False
+226.6163 	EXP 	blank1: autoDraw = False
+226.6163 	EXP 	ForenameSub: text = 'James'
+226.6163 	EXP 	Cue: text = 'FORGET'
+226.6163 	EXP 	polygon_6: autoDraw = True
+226.6163 	EXP 	ForenameSub: autoDraw = True
+227.8091 	EXP 	Mask1: autoDraw = True
+227.8177 	EXP 	ForenameSub: autoDraw = False
+227.8805 	EXP 	Mask1: autoDraw = False
+227.8805 	EXP 	Cue: autoDraw = True
+227.9071 	EXP 	Mask2: autoDraw = True
+227.9273 	EXP 	Cue: autoDraw = False
+228.1531 	EXP 	Mask2: autoDraw = False
+228.1531 	EXP 	blank1: autoDraw = True
+229.8715 	EXP 	blank1: autoDraw = False
+229.8915 	EXP 	New trial (rep=0, index=15): OrderedDict([('NameSub', 'Eliot'), ('CueSub', 'FORGET')])
+229.9093 	EXP 	polygon_6: autoDraw = False
+229.9093 	EXP 	ForenameSub: autoDraw = False
+229.9093 	EXP 	Mask1: autoDraw = False
+229.9093 	EXP 	Cue: autoDraw = False
+229.9093 	EXP 	Mask2: autoDraw = False
+229.9093 	EXP 	blank1: autoDraw = False
+229.9093 	EXP 	ForenameSub: text = 'Eliot'
+229.9093 	EXP 	Cue: text = 'FORGET'
+229.9093 	EXP 	polygon_6: autoDraw = True
+229.9093 	EXP 	ForenameSub: autoDraw = True
+231.0888 	EXP 	Mask1: autoDraw = True
+231.1370 	EXP 	ForenameSub: autoDraw = False
+231.1753 	EXP 	Mask1: autoDraw = False
+231.1753 	EXP 	Cue: autoDraw = True
+231.1845 	EXP 	Mask2: autoDraw = True
+231.2052 	EXP 	Cue: autoDraw = False
+231.4352 	EXP 	Mask2: autoDraw = False
+231.4352 	EXP 	blank1: autoDraw = True
+233.1379 	EXP 	blank1: autoDraw = False
+233.1887 	EXP 	New trial (rep=0, index=16): OrderedDict([('NameSub', 'Colby'), ('CueSub', 'REMEMBER')])
+233.2356 	EXP 	polygon_6: autoDraw = False
+233.2356 	EXP 	ForenameSub: autoDraw = False
+233.2356 	EXP 	Mask1: autoDraw = False
+233.2356 	EXP 	Cue: autoDraw = False
+233.2356 	EXP 	Mask2: autoDraw = False
+233.2356 	EXP 	blank1: autoDraw = False
+233.2356 	EXP 	ForenameSub: text = 'Colby'
+233.2356 	EXP 	Cue: text = 'REMEMBER'
+233.2356 	EXP 	polygon_6: autoDraw = True
+233.2356 	EXP 	ForenameSub: autoDraw = True
+234.4264 	EXP 	Mask1: autoDraw = True
+234.4416 	EXP 	ForenameSub: autoDraw = False
+234.4907 	EXP 	Cue: autoDraw = True
+234.5068 	EXP 	Mask1: autoDraw = False
+234.5266 	EXP 	Cue: autoDraw = False
+234.5266 	EXP 	Mask2: autoDraw = True
+234.7783 	EXP 	blank1: autoDraw = True
+234.8044 	EXP 	Mask2: autoDraw = False
+236.4831 	EXP 	blank1: autoDraw = False
+236.5105 	EXP 	New trial (rep=0, index=17): OrderedDict([('NameSub', 'Boyce'), ('CueSub', 'FORGET')])
+236.5466 	EXP 	polygon_6: autoDraw = False
+236.5466 	EXP 	ForenameSub: autoDraw = False
+236.5466 	EXP 	Mask1: autoDraw = False
+236.5466 	EXP 	Cue: autoDraw = False
+236.5466 	EXP 	Mask2: autoDraw = False
+236.5466 	EXP 	blank1: autoDraw = False
+236.5466 	EXP 	ForenameSub: text = 'Boyce'
+236.5466 	EXP 	Cue: text = 'FORGET'
+236.5466 	EXP 	polygon_6: autoDraw = True
+236.5466 	EXP 	ForenameSub: autoDraw = True
+237.7538 	EXP 	Mask1: autoDraw = True
+237.7757 	EXP 	ForenameSub: autoDraw = False
+237.8103 	EXP 	Cue: autoDraw = True
+237.8359 	EXP 	Mask1: autoDraw = False
+237.8546 	EXP 	Cue: autoDraw = False
+237.8546 	EXP 	Mask2: autoDraw = True
+238.0900 	EXP 	blank1: autoDraw = True
+238.1064 	EXP 	Mask2: autoDraw = False
+239.7900 	EXP 	New trial (rep=0, index=18): OrderedDict([('NameSub', 'Nasha'), ('CueSub', 'FORGET')])
+239.8371 	EXP 	polygon_6: autoDraw = False
+239.8371 	EXP 	ForenameSub: autoDraw = False
+239.8371 	EXP 	Mask1: autoDraw = False
+239.8371 	EXP 	Cue: autoDraw = False
+239.8371 	EXP 	Mask2: autoDraw = False
+239.8371 	EXP 	blank1: autoDraw = False
+239.8371 	EXP 	ForenameSub: text = 'Nasha'
+239.8371 	EXP 	Cue: text = 'FORGET'
+239.8371 	EXP 	polygon_6: autoDraw = True
+239.8371 	EXP 	ForenameSub: autoDraw = True
+241.0255 	EXP 	Mask1: autoDraw = True
+241.0354 	EXP 	ForenameSub: autoDraw = False
+241.0761 	EXP 	Cue: autoDraw = True
+241.1043 	EXP 	Mask1: autoDraw = False
+241.1252 	EXP 	Cue: autoDraw = False
+241.1252 	EXP 	Mask2: autoDraw = True
+241.3554 	EXP 	blank1: autoDraw = True
+241.4026 	EXP 	Mask2: autoDraw = False
+243.0503 	EXP 	blank1: autoDraw = False
+243.0943 	EXP 	New trial (rep=0, index=19): OrderedDict([('NameSub', 'Sofia'), ('CueSub', 'REMEMBER')])
+243.1350 	EXP 	polygon_6: autoDraw = False
+243.1350 	EXP 	ForenameSub: autoDraw = False
+243.1350 	EXP 	Mask1: autoDraw = False
+243.1350 	EXP 	Cue: autoDraw = False
+243.1350 	EXP 	Mask2: autoDraw = False
+243.1350 	EXP 	blank1: autoDraw = False
+243.1350 	EXP 	ForenameSub: text = 'Sofia'
+243.1350 	EXP 	Cue: text = 'REMEMBER'
+243.1350 	EXP 	polygon_6: autoDraw = True
+243.1350 	EXP 	ForenameSub: autoDraw = True
+244.3250 	EXP 	Mask1: autoDraw = True
+244.3339 	EXP 	ForenameSub: autoDraw = False
+244.3773 	EXP 	Cue: autoDraw = True
+244.4027 	EXP 	Mask1: autoDraw = False
+244.4208 	EXP 	Cue: autoDraw = False
+244.4208 	EXP 	Mask2: autoDraw = True
+244.6756 	EXP 	Mask2: autoDraw = False
+244.6756 	EXP 	blank1: autoDraw = True
+246.3877 	EXP 	blank1: autoDraw = False
+246.4089 	EXP 	polygon_6: autoDraw = False
+246.4089 	EXP 	ForenameSub: autoDraw = False
+246.4089 	EXP 	Mask1: autoDraw = False
+246.4089 	EXP 	Cue: autoDraw = False
+246.4089 	EXP 	Mask2: autoDraw = False
+246.4089 	EXP 	blank1: autoDraw = False
+246.4089 	EXP 	polygon_3: autoDraw = True
+246.4089 	EXP 	instruction: autoDraw = True
+248.1469 	DATA 	Keypress: space
+248.1530 	EXP 	polygon_3: autoDraw = False
+248.1530 	EXP 	instruction: autoDraw = False
+248.1530 	EXP 	polygon_2: autoDraw = True
+248.1530 	EXP 	dis1: autoDraw = True
+250.1792 	EXP 	Imported SubliminalTest.xlsx as conditions, 40 conditions, 2 params
+250.1799 	EXP 	Created sequence: random, trialTypes=40, nReps=1, seed=None
+250.1803 	EXP 	New trial (rep=0, index=0): OrderedDict([('TestSub', 'Flynn'), ('AnswerSub', 'o')])
+250.2283 	EXP 	polygon_2: autoDraw = False
+250.2283 	EXP 	dis1: autoDraw = False
+250.2283 	EXP 	polygon_2: autoDraw = False
+250.2283 	EXP 	dis1: autoDraw = False
+250.2283 	EXP 	SubTest: text = 'Flynn'
+250.2283 	EXP 	polygon_8: autoDraw = True
+250.2283 	EXP 	SubTest: autoDraw = True
+251.3631 	EXP 	New trial (rep=0, index=1): OrderedDict([('TestSub', 'Frank'), ('AnswerSub', 'n')])
+251.4156 	DATA 	Keypress: o
+251.4221 	EXP 	polygon_8: autoDraw = False
+251.4221 	EXP 	SubTest: autoDraw = False
+251.4221 	EXP 	SubTest: text = 'Frank'
+251.4221 	EXP 	polygon_8: autoDraw = True
+251.4221 	EXP 	SubTest: autoDraw = True
+251.5042 	EXP 	New trial (rep=0, index=2): OrderedDict([('TestSub', 'Adela'), ('AnswerSub', 'o')])
+251.5271 	DATA 	Keypress: n
+251.5359 	EXP 	polygon_8: autoDraw = False
+251.5359 	EXP 	SubTest: autoDraw = False
+251.5359 	EXP 	SubTest: text = 'Adela'
+251.5359 	EXP 	polygon_8: autoDraw = True
+251.5359 	EXP 	SubTest: autoDraw = True
+251.6458 	EXP 	New trial (rep=0, index=3): OrderedDict([('TestSub', 'Rosey'), ('AnswerSub', 'o')])
+251.6620 	DATA 	Keypress: o
+251.6699 	EXP 	polygon_8: autoDraw = False
+251.6699 	EXP 	SubTest: autoDraw = False
+251.6699 	EXP 	SubTest: text = 'Rosey'
+251.6699 	EXP 	polygon_8: autoDraw = True
+251.6699 	EXP 	SubTest: autoDraw = True
+251.8357 	DATA 	Keypress: o
+251.8510 	EXP 	New trial (rep=0, index=4): OrderedDict([('TestSub', 'Sofia'), ('AnswerSub', 'o')])
+251.8854 	EXP 	polygon_8: autoDraw = False
+251.8854 	EXP 	SubTest: autoDraw = False
+251.8854 	EXP 	SubTest: text = 'Sofia'
+251.8854 	EXP 	polygon_8: autoDraw = True
+251.8854 	EXP 	SubTest: autoDraw = True
+251.9630 	EXP 	New trial (rep=0, index=5): OrderedDict([('TestSub', 'Blake'), ('AnswerSub', 'n')])
+251.9753 	DATA 	Keypress: n
+251.9827 	EXP 	polygon_8: autoDraw = False
+251.9827 	EXP 	SubTest: autoDraw = False
+251.9827 	EXP 	SubTest: text = 'Blake'
+251.9827 	EXP 	polygon_8: autoDraw = True
+251.9827 	EXP 	SubTest: autoDraw = True
+252.0909 	EXP 	New trial (rep=0, index=6): OrderedDict([('TestSub', 'Felix'), ('AnswerSub', 'n')])
+252.1049 	DATA 	Keypress: o
+252.1111 	EXP 	polygon_8: autoDraw = False
+252.1111 	EXP 	SubTest: autoDraw = False
+252.1111 	EXP 	SubTest: text = 'Felix'
+252.1111 	EXP 	polygon_8: autoDraw = True
+252.1111 	EXP 	SubTest: autoDraw = True
+252.1980 	EXP 	New trial (rep=0, index=7): OrderedDict([('TestSub', 'Floyd'), ('AnswerSub', 'o')])
+252.2084 	DATA 	Keypress: n
+252.2244 	EXP 	polygon_8: autoDraw = False
+252.2244 	EXP 	SubTest: autoDraw = False
+252.2244 	EXP 	SubTest: text = 'Floyd'
+252.2244 	EXP 	polygon_8: autoDraw = True
+252.2244 	EXP 	SubTest: autoDraw = True
+252.3141 	EXP 	New trial (rep=0, index=8): OrderedDict([('TestSub', 'James'), ('AnswerSub', 'o')])
+252.3267 	DATA 	Keypress: o
+252.3411 	EXP 	polygon_8: autoDraw = False
+252.3411 	EXP 	SubTest: autoDraw = False
+252.3411 	EXP 	SubTest: text = 'James'
+252.3411 	EXP 	polygon_8: autoDraw = True
+252.3411 	EXP 	SubTest: autoDraw = True
+252.4284 	EXP 	New trial (rep=0, index=9): OrderedDict([('TestSub', 'Carey'), ('AnswerSub', 'o')])
+252.4464 	DATA 	Keypress: n
+252.4572 	EXP 	polygon_8: autoDraw = False
+252.4572 	EXP 	SubTest: autoDraw = False
+252.4572 	EXP 	SubTest: text = 'Carey'
+252.4572 	EXP 	polygon_8: autoDraw = True
+252.4572 	EXP 	SubTest: autoDraw = True
+252.5268 	EXP 	New trial (rep=0, index=10): OrderedDict([('TestSub', 'Caleb'), ('AnswerSub', 'n')])
+252.5382 	DATA 	Keypress: o
+252.5444 	EXP 	polygon_8: autoDraw = False
+252.5444 	EXP 	SubTest: autoDraw = False
+252.5444 	EXP 	SubTest: text = 'Caleb'
+252.5444 	EXP 	polygon_8: autoDraw = True
+252.5444 	EXP 	SubTest: autoDraw = True
+252.6612 	EXP 	New trial (rep=0, index=11): OrderedDict([('TestSub', 'David'), ('AnswerSub', 'n')])
+252.6752 	DATA 	Keypress: n
+252.6819 	EXP 	polygon_8: autoDraw = False
+252.6819 	EXP 	SubTest: autoDraw = False
+252.6819 	EXP 	SubTest: text = 'David'
+252.6819 	EXP 	polygon_8: autoDraw = True
+252.6819 	EXP 	SubTest: autoDraw = True
+252.7765 	EXP 	New trial (rep=0, index=12): OrderedDict([('TestSub', 'Hanna'), ('AnswerSub', 'n')])
+252.7895 	DATA 	Keypress: o
+252.7958 	EXP 	polygon_8: autoDraw = False
+252.7958 	EXP 	SubTest: autoDraw = False
+252.7958 	EXP 	SubTest: text = 'Hanna'
+252.7958 	EXP 	polygon_8: autoDraw = True
+252.7958 	EXP 	SubTest: autoDraw = True
+252.9097 	EXP 	New trial (rep=0, index=13): OrderedDict([('TestSub', 'Brina'), ('AnswerSub', 'o')])
+252.9322 	DATA 	Keypress: n
+252.9384 	EXP 	polygon_8: autoDraw = False
+252.9384 	EXP 	SubTest: autoDraw = False
+252.9384 	EXP 	SubTest: text = 'Brina'
+252.9384 	EXP 	polygon_8: autoDraw = True
+252.9384 	EXP 	SubTest: autoDraw = True
+253.0139 	EXP 	New trial (rep=0, index=14): OrderedDict([('TestSub', 'Heath'), ('AnswerSub', 'o')])
+253.0218 	DATA 	Keypress: o
+253.0393 	EXP 	polygon_8: autoDraw = False
+253.0393 	EXP 	SubTest: autoDraw = False
+253.0393 	EXP 	SubTest: text = 'Heath'
+253.0393 	EXP 	polygon_8: autoDraw = True
+253.0393 	EXP 	SubTest: autoDraw = True
+253.1337 	DATA 	Keypress: n
+253.1561 	EXP 	New trial (rep=0, index=15): OrderedDict([('TestSub', 'Andre'), ('AnswerSub', 'n')])
+253.1805 	EXP 	polygon_8: autoDraw = False
+253.1805 	EXP 	SubTest: autoDraw = False
+253.1805 	EXP 	SubTest: text = 'Andre'
+253.1805 	EXP 	polygon_8: autoDraw = True
+253.1805 	EXP 	SubTest: autoDraw = True
+253.2472 	DATA 	Keypress: o
+253.2639 	EXP 	New trial (rep=0, index=16): OrderedDict([('TestSub', 'Maria'), ('AnswerSub', 'n')])
+253.2829 	EXP 	polygon_8: autoDraw = False
+253.2829 	EXP 	SubTest: autoDraw = False
+253.2829 	EXP 	SubTest: text = 'Maria'
+253.2829 	EXP 	polygon_8: autoDraw = True
+253.2829 	EXP 	SubTest: autoDraw = True
+253.3947 	EXP 	New trial (rep=0, index=17): OrderedDict([('TestSub', 'Daren'), ('AnswerSub', 'n')])
+253.4060 	DATA 	Keypress: n
+253.4117 	EXP 	polygon_8: autoDraw = False
+253.4117 	EXP 	SubTest: autoDraw = False
+253.4117 	EXP 	SubTest: text = 'Daren'
+253.4117 	EXP 	polygon_8: autoDraw = True
+253.4117 	EXP 	SubTest: autoDraw = True
+253.4935 	EXP 	New trial (rep=0, index=18): OrderedDict([('TestSub', 'Jessa'), ('AnswerSub', 'o')])
+253.5050 	DATA 	Keypress: o
+253.5110 	EXP 	polygon_8: autoDraw = False
+253.5110 	EXP 	SubTest: autoDraw = False
+253.5110 	EXP 	SubTest: text = 'Jessa'
+253.5110 	EXP 	polygon_8: autoDraw = True
+253.5110 	EXP 	SubTest: autoDraw = True
+253.5990 	EXP 	New trial (rep=0, index=19): OrderedDict([('TestSub', 'Jason'), ('AnswerSub', 'n')])
+253.6372 	DATA 	Keypress: n
+253.6441 	EXP 	polygon_8: autoDraw = False
+253.6441 	EXP 	SubTest: autoDraw = False
+253.6441 	EXP 	SubTest: text = 'Jason'
+253.6441 	EXP 	polygon_8: autoDraw = True
+253.6441 	EXP 	SubTest: autoDraw = True
+253.7333 	EXP 	New trial (rep=0, index=20): OrderedDict([('TestSub', 'Mabel'), ('AnswerSub', 'o')])
+253.7657 	DATA 	Keypress: o
+253.7722 	EXP 	polygon_8: autoDraw = False
+253.7722 	EXP 	SubTest: autoDraw = False
+253.7722 	EXP 	SubTest: text = 'Mabel'
+253.7722 	EXP 	polygon_8: autoDraw = True
+253.7722 	EXP 	SubTest: autoDraw = True
+253.8505 	EXP 	New trial (rep=0, index=21): OrderedDict([('TestSub', 'Garry'), ('AnswerSub', 'n')])
+253.8628 	DATA 	Keypress: n
+253.8745 	EXP 	polygon_8: autoDraw = False
+253.8745 	EXP 	SubTest: autoDraw = False
+253.8745 	EXP 	SubTest: text = 'Garry'
+253.8745 	EXP 	polygon_8: autoDraw = True
+253.8745 	EXP 	SubTest: autoDraw = True
+253.9606 	DATA 	Keypress: o
+253.9816 	EXP 	New trial (rep=0, index=22): OrderedDict([('TestSub', 'Sandy'), ('AnswerSub', 'n')])
+254.0329 	EXP 	polygon_8: autoDraw = False
+254.0329 	EXP 	SubTest: autoDraw = False
+254.0329 	EXP 	SubTest: text = 'Sandy'
+254.0329 	EXP 	polygon_8: autoDraw = True
+254.0329 	EXP 	SubTest: autoDraw = True
+254.0957 	EXP 	New trial (rep=0, index=23): OrderedDict([('TestSub', 'Eliot'), ('AnswerSub', 'o')])
+254.1065 	DATA 	Keypress: n
+254.1129 	EXP 	polygon_8: autoDraw = False
+254.1129 	EXP 	SubTest: autoDraw = False
+254.1129 	EXP 	SubTest: text = 'Eliot'
+254.1129 	EXP 	polygon_8: autoDraw = True
+254.1129 	EXP 	SubTest: autoDraw = True
+254.2146 	EXP 	New trial (rep=0, index=24): OrderedDict([('TestSub', 'Abiah'), ('AnswerSub', 'n')])
+254.2672 	DATA 	Keypress: o
+254.2746 	EXP 	polygon_8: autoDraw = False
+254.2746 	EXP 	SubTest: autoDraw = False
+254.2746 	EXP 	SubTest: text = 'Abiah'
+254.2746 	EXP 	polygon_8: autoDraw = True
+254.2746 	EXP 	SubTest: autoDraw = True
+254.3684 	EXP 	New trial (rep=0, index=25): OrderedDict([('TestSub', 'Diana'), ('AnswerSub', 'o')])
+254.3924 	DATA 	Keypress: n
+254.3986 	EXP 	polygon_8: autoDraw = False
+254.3986 	EXP 	SubTest: autoDraw = False
+254.3986 	EXP 	SubTest: text = 'Diana'
+254.3986 	EXP 	polygon_8: autoDraw = True
+254.3986 	EXP 	SubTest: autoDraw = True
+254.4871 	DATA 	Keypress: o
+254.6309 	EXP 	New trial (rep=0, index=26): OrderedDict([('TestSub', 'Liana'), ('AnswerSub', 'o')])
+254.7109 	DATA 	Keypress: n
+254.7173 	EXP 	polygon_8: autoDraw = False
+254.7173 	EXP 	SubTest: autoDraw = False
+254.7173 	EXP 	SubTest: text = 'Liana'
+254.7173 	EXP 	polygon_8: autoDraw = True
+254.7173 	EXP 	SubTest: autoDraw = True
+254.7482 	DATA 	Keypress: o
+254.7605 	EXP 	New trial (rep=0, index=27): OrderedDict([('TestSub', 'Boyce'), ('AnswerSub', 'o')])
+254.7804 	EXP 	polygon_8: autoDraw = False
+254.7804 	EXP 	SubTest: autoDraw = False
+254.7804 	EXP 	SubTest: text = 'Boyce'
+254.7804 	EXP 	polygon_8: autoDraw = True
+254.7804 	EXP 	SubTest: autoDraw = True
+254.9178 	EXP 	New trial (rep=0, index=28): OrderedDict([('TestSub', 'Colby'), ('AnswerSub', 'o')])
+254.9521 	DATA 	Keypress: n
+254.9587 	EXP 	polygon_8: autoDraw = False
+254.9587 	EXP 	SubTest: autoDraw = False
+254.9587 	EXP 	SubTest: text = 'Colby'
+254.9587 	EXP 	polygon_8: autoDraw = True
+254.9587 	EXP 	SubTest: autoDraw = True
+255.1956 	DATA 	Keypress: o
+255.2139 	EXP 	New trial (rep=0, index=29): OrderedDict([('TestSub', 'Elsha'), ('AnswerSub', 'n')])
+255.2392 	EXP 	polygon_8: autoDraw = False
+255.2392 	EXP 	SubTest: autoDraw = False
+255.2392 	EXP 	SubTest: text = 'Elsha'
+255.2392 	EXP 	polygon_8: autoDraw = True
+255.2392 	EXP 	SubTest: autoDraw = True
+255.3307 	DATA 	Keypress: n
+255.3469 	EXP 	New trial (rep=0, index=30): OrderedDict([('TestSub', 'Dylan'), ('AnswerSub', 'o')])
+255.3662 	EXP 	polygon_8: autoDraw = False
+255.3662 	EXP 	SubTest: autoDraw = False
+255.3662 	EXP 	SubTest: text = 'Dylan'
+255.3662 	EXP 	polygon_8: autoDraw = True
+255.3662 	EXP 	SubTest: autoDraw = True
+255.4954 	EXP 	New trial (rep=0, index=31): OrderedDict([('TestSub', 'Nasha'), ('AnswerSub', 'o')])
+255.5318 	DATA 	Keypress: o
+255.5384 	EXP 	polygon_8: autoDraw = False
+255.5384 	EXP 	SubTest: autoDraw = False
+255.5384 	EXP 	SubTest: text = 'Nasha'
+255.5384 	EXP 	polygon_8: autoDraw = True
+255.5384 	EXP 	SubTest: autoDraw = True
+255.6432 	EXP 	New trial (rep=0, index=32): OrderedDict([('TestSub', 'Brook'), ('AnswerSub', 'n')])
+255.6789 	DATA 	Keypress: n
+255.6853 	EXP 	polygon_8: autoDraw = False
+255.6853 	EXP 	SubTest: autoDraw = False
+255.6853 	EXP 	SubTest: text = 'Brook'
+255.6853 	EXP 	polygon_8: autoDraw = True
+255.6853 	EXP 	SubTest: autoDraw = True
+255.7442 	EXP 	New trial (rep=0, index=33): OrderedDict([('TestSub', 'Poppy'), ('AnswerSub', 'n')])
+255.7633 	DATA 	Keypress: o
+255.7695 	EXP 	polygon_8: autoDraw = False
+255.7695 	EXP 	SubTest: autoDraw = False
+255.7695 	EXP 	SubTest: text = 'Poppy'
+255.7695 	EXP 	polygon_8: autoDraw = True
+255.7695 	EXP 	SubTest: autoDraw = True
+255.9175 	EXP 	New trial (rep=0, index=34): OrderedDict([('TestSub', 'Linda'), ('AnswerSub', 'n')])
+255.9599 	DATA 	Keypress: n
+255.9660 	EXP 	polygon_8: autoDraw = False
+255.9660 	EXP 	SubTest: autoDraw = False
+255.9660 	EXP 	SubTest: text = 'Linda'
+255.9660 	EXP 	polygon_8: autoDraw = True
+255.9660 	EXP 	SubTest: autoDraw = True
+256.0685 	EXP 	New trial (rep=0, index=35): OrderedDict([('TestSub', 'Gregg'), ('AnswerSub', 'o')])
+256.1024 	DATA 	Keypress: o
+256.1090 	EXP 	polygon_8: autoDraw = False
+256.1090 	EXP 	SubTest: autoDraw = False
+256.1090 	EXP 	SubTest: text = 'Gregg'
+256.1090 	EXP 	polygon_8: autoDraw = True
+256.1090 	EXP 	SubTest: autoDraw = True
+256.1980 	DATA 	Keypress: n
+256.2274 	EXP 	New trial (rep=0, index=36): OrderedDict([('TestSub', 'Aaron'), ('AnswerSub', 'o')])
+256.2617 	EXP 	polygon_8: autoDraw = False
+256.2617 	EXP 	SubTest: autoDraw = False
+256.2617 	EXP 	SubTest: text = 'Aaron'
+256.2617 	EXP 	polygon_8: autoDraw = True
+256.2617 	EXP 	SubTest: autoDraw = True
+256.3314 	EXP 	New trial (rep=0, index=37): OrderedDict([('TestSub', 'Harry'), ('AnswerSub', 'n')])
+256.3431 	DATA 	Keypress: o
+256.3560 	EXP 	polygon_8: autoDraw = False
+256.3560 	EXP 	SubTest: autoDraw = False
+256.3560 	EXP 	SubTest: text = 'Harry'
+256.3560 	EXP 	polygon_8: autoDraw = True
+256.3560 	EXP 	SubTest: autoDraw = True
+256.4861 	EXP 	New trial (rep=0, index=38): OrderedDict([('TestSub', 'Ethan'), ('AnswerSub', 'n')])
+256.5043 	DATA 	Keypress: n
+256.5106 	EXP 	polygon_8: autoDraw = False
+256.5106 	EXP 	SubTest: autoDraw = False
+256.5106 	EXP 	SubTest: text = 'Ethan'
+256.5106 	EXP 	polygon_8: autoDraw = True
+256.5106 	EXP 	SubTest: autoDraw = True
+256.5965 	EXP 	New trial (rep=0, index=39): OrderedDict([('TestSub', 'Caden'), ('AnswerSub', 'n')])
+256.6106 	DATA 	Keypress: o
+256.6169 	EXP 	polygon_8: autoDraw = False
+256.6169 	EXP 	SubTest: autoDraw = False
+256.6169 	EXP 	SubTest: text = 'Caden'
+256.6169 	EXP 	polygon_8: autoDraw = True
+256.6169 	EXP 	SubTest: autoDraw = True
+256.7433 	DATA 	Keypress: n
+256.7501 	EXP 	polygon_8: autoDraw = False
+256.7501 	EXP 	SubTest: autoDraw = False
+256.7501 	EXP 	polygon_9: autoDraw = True
+256.7501 	EXP 	text: autoDraw = True
+256.8444 	DATA 	Keypress: o
+256.9819 	DATA 	Keypress: n
+258.5445 	DATA 	Keypress: space
+259.6278 	DATA 	Keypress: escape
+260.2775 	EXP 	window1: mouseVisible = True
